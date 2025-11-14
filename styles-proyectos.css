@@ -1,5 +1,5 @@
 .Proyectos-registrados {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .Proyectos-registrados h1 {
@@ -13,13 +13,13 @@
   display: flex;
   justify-content: space-between;
   max-width: 1000px;
-  gap: 30px;
+  gap: 5px;
 }
 
 .div-Proyecto {
   border-radius: 5px;
   border: 2px solid black;
-  padding: 10px;
+  padding: 5px;
 }
 
 .div-Proyecto img {
@@ -33,33 +33,33 @@
 
 .Info-cambios-proyectos {
   background-color: ghostwhite;
-  color: white;
+  color: rgb(17, 17, 17);
 }
 .Info-cambios-proyectos h2 {
   background-color: rgb(219, 214, 145);
-  color: white;
+  color: rgb(60, 60, 232);
 }
 
 .div-camb-general {
-  background-color: ghostwhite;
+  background-color: rgb(60, 60, 232);
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 20px;
+  gap: 60px;
 }
 
 .div-camb-texto {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 600px;
+  max-width: 1200px;
 }
 
 .div-camb-texto p {
   justify-content: justify;
-  background-color: ghostwhite;
+  background-color: rgb(60, 60, 232);
   color: black;
   font-size: 16px;
 }
