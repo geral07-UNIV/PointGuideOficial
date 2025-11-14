@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Para visualizar en otros dispositivos-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles-formulario.css" />
+  </head>
+
+  <body>
+    <nav class="topheader">
+      <a href="" class="Logo">
+        <img src="POINTG.png" alt="" />
+      </a>
+      <!-- Diseño del Menu horizontal -->
+      <ul class="Menu-Horizontal">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Mis-Proyectos.html">Mis Proyectos</a></li>
+        <!--Para enlazar un subtitulo con otra pantalla-->
+        <li>
+          <a href="">Grupo</a>
+          <!--Antes de finalizar prodc, se crea una lista mas-->
+
+          <ul class="Menu-Vertical-Productos">
+            <li><a href="NuevoGrupo.html">Nuevo Grupo</a></li>
+            <li><a href="Asignar-Proyecto.html">Asignar Proyecto</a></li>
+          </ul>
+        </li>
+        <!--Aqui arriba termina Productos-->
+
+        <li><a href="Ayuda.html">Ayuda</a></li>
+      </ul>
+    </nav>
+    <!-- Seccion Ayuda -->
+    <section class="Ayuda-general">
+      <div class="div-ayuda-formulario">
+        <h2>Formulario</h2>
+        <p>
+          En este formulario se va a recopilar la información sobre su dda o
+          queja. Sientase libre de escribirnos
+        </p>
+        <p>Por favor, complete todos los campos</p>
+        <form class="Formulario">
+          <!-- Input + label: Nombre, Ape, DNI, Telf-->
+          <div class="campo">
+            <label for="Nombre">Nombre: </label>
+            <input
+              type="text"
+              id="tb-nombre"
+              name="tb-nombre"
+              placeholder="Ingrese su nombre"
+            />
+          </div>
+
+          <!-- Lista Desplegable-->
+          <div class="campo">
+            <label for="Nombre">Pais: </label>
+            <select id="pais" name="pais">
+              <option value="Peru">Peru</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Colombia">Colombia</option>
+            </select>
+          </div>
+
+          <!-- Check box-->
+          <div class="campo">
+            <label>Motivo de la consulta: </label>
+            <ul class="Lista-checkbox">
+              <li>
+                <p>
+                  <input type="checkbox" name="motivos" value="a" />Problema con
+                  el registro
+                </p>
+              </li>
+              <li>
+                <p>
+                  <input type="checkbox" name="motivos" value="b" />Problema con
+                  un Proyecto
+                </p>
+              </li>
+              <li>
+                <p>
+                  <input type="checkbox" name="motivos" value="c" />Problema con
+                  el inicio de sesion
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Radio-->
+          <div class="campo">
+            <label>Sexo:</label>
+            <ul class="Lista-radio">
+              <li>
+                <p><input type="radio" name="motivos" value="a" />Masculino</p>
+              </li>
+              <li>
+                <p><input type="radio" name="motivos" value="b" />Femenino</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Boton -->
+          <button type="Submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Para visualizar en otros dispositivos-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles-proyectos.css" />
+  </head>
+  <body>
+    <nav class="topheader">
+      <a href="" class="Logo">
+        <img src="POINTG.png" alt="" />
+      </a>
+      <!-- Diseño del Menu horizontal -->
+      <ul class="Menu-Horizontal">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Mis-Proyectos.html">Mis Points</a></li>
+        <!--Para enlazar un subtitulo con otra pantalla-->
+        <li>
+          <a href="">Grupo</a>
+
+          <ul class="Menu-Vertical-Productos">
+            <li><a href="NuevoGrupo.html">Nuevo</a></li>
+            <li><a href="Asignar-Proyecto.html">Asignar Salida</a></li>
+          </ul>
+        </li>
+        <!--Aqui arriba termina Productos-->
+
+        <li><a href="Ayuda.html">Ayuda</a></li>
+      </ul>
+    </nav>
+    <section class="Proyectos-registrados">
+      <div class="Titulo">
+        <h1><b>Salidas Registradas</b></h1>
+      </div>
+      <div class="div-proyectos-texto">
+        <div class="div-Proyecto">
+          <img src="cafeteria.jpg" alt="" />
+          <h2>Cafeterias</h2>
+          <h3>Fecha: 04/09/2025</h3>
+          <h3>Estado: Activo</h3>
+        </div>
+        <div class="div-Proyecto">
+          <img src="restaurantes.jpg" alt="" />
+          <h2>Restaurantes</h2>
+          <h3>Fecha: 04/09/2025</h3>
+          <h3>Estado: Activo</h3>
+        </div>
+        <div class="div-Proyecto">
+          <img src="juegos.png" alt="" />
+          <h2>Juegos</h2>
+          <h3>Fecha: 04/09/2025</h3>
+          <h3>Estado: Inactivo</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Seccion Info de Cambios-->
+    <section class="Info-cambios-proyectos">
+      <div class="Titulo">
+        <h1><b>¿Cómo cambiar el estado de una Salida?</b><h1>
+      </div>
+      <div class="div-camb-general">
+        <div class="div-camb-imagen">
+          <img src="Imagenes/Activo-inactivo.png" alt="">
+        </div>
+        <div class="div-camb-texto">
+          <p>Selecciona la salida que desea actualizar haciendo clic sobre su fila. Al hacerlo, el panel lateral derecho despliega los detalles completos de la salida. En este panel existe una sección llamada "Configuración de Estado", que incluye un interruptor o selector desplegable que muestra el estado actual de la salida (“Activo”). Al presionar el selector, aparece una lista con los estados disponibles. El usuario elige la opción "Inactivo". Una vez que el usuario confirma, el sistema ejecuta la actualización. El estado del proyecto se modifica a “Inactivo”, la fila en la tabla cambia su color indicativo a gris tenue para diferenciarlo visualmente</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+.Proyectos-registrados {
+  padding-bottom: 30px;
+}
+
+.Proyectos-registrados h1 {
+  background-color: rgb(219, 214, 145);
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.div-proyectos-texto {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  gap: 30px;
+}
+
+.div-Proyecto {
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.div-Proyecto img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.div-Proyecto h3 {
+  line-height: 0;
+}
+
+.Info-cambios-proyectos {
+  background-color: ghostwhite;
+  color: white;
+}
+.Info-cambios-proyectos h2 {
+  background-color: rgb(219, 214, 145);
+  color: white;
+}
+
+.div-camb-general {
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.div-camb-texto {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+}
+
+.div-camb-texto p {
+  justify-content: justify;
+  background-color: ghostwhite;
+  color: black;
+  font-size: 16px;
+}
+
+.div-camb-imagen img {
+  width: 100%;
+  max-width: 500px;
+}

@@ -1,0 +1,115 @@
+/* MENU */
+
+.topheader {
+  color: rgb(228, 236, 150);
+  background-color: #332ddb;
+  position: fixed;
+  width: 100%; /* Para el ancho #FFF9E5*/
+  display: flex;
+  align-items: center; /* Items centrados#743232 */
+  justify-content: space-between;
+  padding: 0 20px; /* Repasar */
+}
+
+.Menu-Horizontal {
+  list-style: none; /* Los bulets son los puntitos de lista */
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Menu-Horizontal li a {
+  text-decoration: none;
+  color: rgb(249, 244, 244);
+  display: block;
+  padding: 5px 20px;
+}
+
+.Menu-Horizontal li a:hover {
+  /*Evento cuando se pasa el mouse */
+  color: #e3e32a;
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical-Productos {
+  display: block; /* Para q se despliegue*/
+}
+
+.Menu-Vertical-Productos {
+  display: none;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  width: 150px;
+  background-color: rgb(22, 22, 22);
+}
+
+/* SECCION CREAR UN GRUPO */
+.registrar_grupo {
+  padding: 90px 20px 5px;
+  background-color: #e3e32a;
+}
+
+.div1 {
+  grid-column: span 3 / span 3;
+  grid-row: span 5 / span 5;
+}
+.registrar_grupo h2 {
+  color: #1a1919;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.div-general-rgrupo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.div-rgrupo-texto {
+  flex: 1;
+}
+
+.div-rgrupo-texto p {
+  color: rgb(6, 6, 6);
+  line-height: 1;
+  text-align: justify;
+}
+
+.div-rgrupo-img img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.exp-grupo-trabajo {
+  background-color: #332ddb;
+  padding: 1px;
+}
+
+.div-general-exp-grupo-trabajo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.exp-grupo-trabajo h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.div-exp-grupo-trabajo-texto p {
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.div-exp-grupo-trabajo-video iframe {
+  width: 100%;
+  max-width: 1000px;
+}

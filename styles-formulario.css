@@ -1,0 +1,60 @@
+/* Seccion Formulario */
+.Ayuda-general {
+  background-color: rgb(240, 243, 86);
+  padding: 40px;
+  padding-top: 100px;
+  border: 2px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.div-ayuda-formulario {
+  justify-content: center;
+  background-color: rgb(65, 108, 227);
+  padding: 30px;
+  border: 3px solid black;
+  width: 100%;
+  max-width: 500px;
+}
+
+.campo {
+  background-color: rgb(235, 235, 66);
+  padding: 15px;
+  border: 1px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.Formulario label {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+/*Para las cajas input select */
+.Formulario input[type="text"],
+.Formulario select {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.Lista-checkbox,
+.Lista-radio {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  border: 1px;
+}
+
+.Formulario button {
+  background-color: rgb(115, 218, 78);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
