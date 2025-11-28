@@ -19,7 +19,7 @@
     display: none; /* Ocultar menú horizontal por defecto */
     flex-direction: column; /* Mostrarlo en vertical al activarse */
     width: 100%;
-    background-color: rgb(241, 245, 33);
+    background-color: rgb(12, 76, 212);
     position: absolute;
     top: 5rem; /* Debajo del menú fijo */
     left: 0;
@@ -29,7 +29,7 @@
     display: flex; /* Mostrar menú al activar la clase */
   }
 
-  .Menu-Horizontal li {
+  .Menu-Horizontal li a {
     border-bottom: 1px solid #2046f0; /* Líneas separadoras */
     color: black;
   }
