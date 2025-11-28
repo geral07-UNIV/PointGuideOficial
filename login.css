@@ -7,7 +7,7 @@
   min-height: 100vh;
   width: 100%;
   /* Fondo atractivo para la vista de escritorio */
-  background: linear-gradient(135deg, #3842c9 0%, #4e7ed1 100%);
+  background: linear-gradient(135deg, #b6b9e2 0%, #7695cc 100%);
   padding: 1.25rem; /* 20px de padding */
 }
 
@@ -45,14 +45,14 @@
 .input-group input {
   width: 100%;
   padding: 0.75rem; /* 12px */
-  border: 1px solid #ccc;
+  border: 1px solid #664ba3;
   border-radius: 0.3125rem; /* 5px */
   font-size: 1rem;
   transition: border-color 0.3s;
 }
 
 .input-group input:focus {
-  border-color: #2575fc;
+  border-color: #538cee;
   outline: none;
 }
 
@@ -62,7 +62,7 @@
   padding: 0.75rem; /* 12px */
   border: none;
   border-radius: 0.3125rem; /* 5px */
-  background-color: #2575fc;
+  background-color: #374763;
   color: white;
   font-size: 1.1rem;
   cursor: pointer;
