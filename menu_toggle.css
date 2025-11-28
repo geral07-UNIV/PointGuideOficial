@@ -19,7 +19,7 @@
     display: none; /* Ocultar menú horizontal por defecto */
     flex-direction: column; /* Mostrarlo en vertical al activarse */
     width: 100%;
-    background-color: white;
+    background-color: rgb(241, 245, 33);
     position: absolute;
     top: 5rem; /* Debajo del menú fijo */
     left: 0;
@@ -30,6 +30,6 @@
   }
 
   .Menu-Horizontal li {
-    border-bottom: 1px solid #ccc; /* Líneas separadoras */
+    border-bottom: 1px solid #2046f0; /* Líneas separadoras */
   }
 }
