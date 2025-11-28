@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Para visualizar en otros dispositivos-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+
+  <body>
+    <nav class="topheader">
+      <a href="" class="Logo">
+        <img height="90px" width="90px" src="POINTG.png" alt="" />
+      </a>
+      <!-- Diseño del Menu horizontal -->
+      <ul class="Menu-Horizontal">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Points.html">Points</a></li>
+        <li><a href="Formulario.html">Formulario</a></li>
+        <!--Para enlazar un subtitulo con otra pantalla-->
+        <li>
+          <a href="">Grupo</a>
+          <!--Antes de finalizar prodc, se crea una lista mas-->
+
+          <ul class="Menu-Vertical-Productos">
+            <li><a href="">Nuevo Grupo</a></li>
+            <li><a href="">Asignar Proyecto</a></li>
+          </ul>
+        </li>
+        <!--Aqui arriba termina Productos-->
+
+        <li><a href="">Ayuda</a></li>
+      </ul>
+    </nav>
+    <!--SECION REGISTRAR UN GRUPO -->
+    <section class="registrar_grupo">
+      <h2>Point Guide</h2>
+      <div class="div-general-rgrupo">
+        <div class="div-rgrupo-texto">
+          <p>
+            Point Guide es una página web dedicada a recomendar lugares ideales
+            para disfrutar y descubrir nuevas experiencias. Ofrece una
+            navegación sencilla con categorías como cafeterías, restaurantes,
+            bares, actividades culturales y espacios al aire libre. Cada
+            recomendación incluye información práctica como ubicación, precios,
+            horarios y reseñas de usuarios. Su objetivo es inspirar a las
+            personas a salir, explorar y compartir momentos, promoviendo una
+            vida social más activa y conectada. Además, busca crear una
+            comunidad donde los usuarios puedan valorar y aportar sus propios
+            “points”, enriqueciendo la guía con experiencias auténticas y
+            variadas.
+          </p>
+        </div>
+
+        <div class="div-rgrupo-img">
+          <img src="ONE.PNG" />
+        </div>
+      </div>
+    </section>
+
+    <!--SECION EXP GRUPO DE TRABAJO -->
+    <section class="exp-grupo-trabajo">
+      <h2>¡Encontrar lugares increibles ya no es tan complicado!</h2>
+      <div class="div-general-exp-grupo-trabajo">
+        <div class="div-exp-grupo-trabajo-texto">
+          <p>
+            ¿Listo para darle emoción a tu día? En Point Guide te mostramos los
+            mejores lugares para salir: cafeterías acogedoras, restaurantes
+            únicos, actividades culturales y rincones al aire libre que harán tu
+            tiempo libre mucho más especial. Este video está hecho para
+            inspirarte: explora, descubre y diviértete mientras encuentras
+            “points” que se disfrutan tanto como se viven. No necesitas ser
+            experto en planes, solo ganas de probar algo nuevo. ¡Dale play y sal
+            con flow!
+          </p>
+        </div>
+        <div class="div-exp-grupo-trabajo-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/JCzVPe49YdI?si=R9w57sL1acbdzO6I"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; 
+          encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img src="POINTG.png" alt="Logo" class="footer-logo" />
+            <p>Point Guide</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+  <link rel="stylesheet" href="Pie.css" />
+</html>
