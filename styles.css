@@ -80,7 +80,7 @@
 
 .div-rgrupo-img img {
   width: 100%;
-  max-width: 300px;
+  max-width: 500px;
 }
 
 .exp-grupo-trabajo {
@@ -111,5 +111,5 @@
 
 .div-exp-grupo-trabajo-video iframe {
   width: 100%;
-  max-width: 1000px;
+  max-width: 900px;
 }
