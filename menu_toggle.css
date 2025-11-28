@@ -31,5 +31,6 @@
 
   .Menu-Horizontal li {
     border-bottom: 1px solid #2046f0; /* Líneas separadoras */
+    color: black;
   }
 }
